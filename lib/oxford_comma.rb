@@ -6,4 +6,5 @@ def oxford_comma(array)
     else
       string+=" #{item}"
     end
+  end
 end
