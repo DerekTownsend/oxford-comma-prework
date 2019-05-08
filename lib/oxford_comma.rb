@@ -4,7 +4,7 @@ def oxford_comma(array)
     if array.last==item
       string+=", and #{item}"
     else
-      string+=" #{item}"
+      string+=", #{item}"
     end
   end
   return string
