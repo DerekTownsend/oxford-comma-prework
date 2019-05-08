@@ -1,4 +1,5 @@
 def oxford_comma(array)
+  string=""
   array.each do |item|
     if array.length==1
       string+=item
