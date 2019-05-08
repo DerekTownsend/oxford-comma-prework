@@ -6,7 +6,9 @@ def oxford_comma(array)
     string+=array.join(" and ")
   else
     array.each do |item|
-      if array.last==item
+      if array.first==item
+        string+="#{item},"
+      elsif array.last==item
         string+=", and #{item}"
       else
         string+=", #{item}"
