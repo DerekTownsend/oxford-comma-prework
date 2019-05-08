@@ -7,6 +7,8 @@ def oxford_comma(array)
       string+=", #{item}"
     elsif array.last==item
       string+=", and #{item}"
+    else
+      string+=", #{item}"
     end
   end
   return string
