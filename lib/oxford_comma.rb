@@ -3,5 +3,7 @@ def oxford_comma(array)
   array.each do |item|
     if array.last==item
       string+=", and #{item}"
+    else
+      string+=" #{item}"
     end
 end
