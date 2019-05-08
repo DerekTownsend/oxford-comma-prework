@@ -5,11 +5,12 @@ def oxford_comma(array)
   elsif array.length==2
     string+=array.join(" and ")
   else
-  array.each do |item|
-    elsif array.last==item
-      string+=", and #{item}"
-    else
-      string+=", #{item}"
+    array.each do |item|
+      elsif array.last==item
+        string+=", and #{item}"
+      else
+        string+=", #{item}"
+      end
     end
   end
   return string
