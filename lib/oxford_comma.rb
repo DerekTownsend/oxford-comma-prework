@@ -1,8 +1,8 @@
 def oxford_comma(array)
   string=""
   array.each do |item|
-    if condition
-
+    if array.length==1
+      string+=item
     elsif array.last==item
       string+=", and #{item}"
     else
